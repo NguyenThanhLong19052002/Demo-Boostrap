@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style_form.css">
+  <title>Document</title>
+</head>
+<body>
+    <div class="container">
+      <div class="col-md-5">
+        <form>
+          <h2>Form đăng ký</h2>
+          <div class="row group">
+              <div class="col">
+                <input class="form-control" type="text" required placeholder="Họ">
+              </div>
+              <div class="col">
+                <input class="form-control" type="text" required placeholder="Tên">
+              </div>
+          </div>
+          <div class="form-group group">
+            <input class="form-control" type="email" required placeholder="Email">
+          </div>
+          <div class="form-group group">
+            <input class="form-control" type="number" required placeholder="Số điện thoại">
+          </div>
+          <div class="form-group group">
+            <input class="form-control" type="password" required placeholder="Mật khẩu mới">
+          </div>
+          <div class="row group">
+            <label>Ngày sinh</label>
+            <div class="col">
+
+              <select class="form-control" aria-valuemin="">
+                <option selected>Ngày</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+
+            <div class="col">
+              <select class="form-control">
+                <option selected>Tháng</option>
+                <option>Tháng 10</option>
+                <option>Tháng 11</option>
+                <option>Tháng 12</option>
+                <option>Tháng 1</option>
+              </select>
+            </div>
+
+            <div class="col">
+              <select class="form-control">
+                <option selected>Năm</option>
+                <option>2000</option>
+                <option>2001</option>
+                <option>2002</option>
+                <option>2003</option>
+              </select>
+            </div>
+          </div>
+          <div class="row group">
+            <label>Giới tính</label>
+            <div class="col">
+              <div class="btn btn-outline-secondary">
+                <label for="sex1">Nam</label>
+                <input class="form-check-input" type="radio" name="sex" id="sex1">
+              </div>
+            </div>
+             
+            <div class="col">
+              <div class="btn btn-outline-secondary">
+                <label for="sex2">Nữ</label>
+                <input class="form-check-input" type="radio" name="sex" id="sex2">
+              </div>
+            </div>
+            <div class="col">
+              <div class="btn btn-outline-secondary">
+                <label for="sex3">Tùy chỉnh</label>
+                <input class="form-check-input" type="radio" name="sex" id="sex3">
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group group">
+            <input type="checkbox">
+            <label>Tôi đồng ý với các điều khoản sử dụng</label>
+          </div>
+          <div class="form-group submit">
+
+            <input type="submit" value="Đăng ký" class="btn btn-primary">
+          </div>
+        </form>
+      </div>
+    </div>
+</body>
+</html>
