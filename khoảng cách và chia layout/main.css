@@ -1,0 +1,18 @@
+/* do cái dropdown ko hoạt động nên phải thêm css vào */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+/* đổi màu nền navbar */
+nav#navbar-example2  {
+    background-color: #ccc;
+}
+
+.nav-item:hover .nav-link  {
+    background-color: white;
+}
+.wrap-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
