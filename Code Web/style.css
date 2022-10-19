@@ -15,4 +15,36 @@
    
     margin-left:100px;
 }
+/* css phan Project va cac the card*/
+img {
+    width: 100%;
+}
+.wrap-picture{
+    position: relative;
+    margin-bottom: 16px;
+}
+.wrap-picture-desc{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    /* class col có padding là 12px nên ta thêm margin-left 12px cho nó đẹp */
+    margin-left: 12px; 
+}
+.card-body {
+    text-align: left;
+}
 
+.contactBtn {
+    width: 100%;
+    background-color: #f1f1f1;
+    color: black;
+    border: none;
+}
+.contactBtn:hover {
+    background-color: #ccc;
+    color: black;
+}
+/* ket thuc css phan Project va cac the card*/
