@@ -33,10 +33,6 @@ img {
     /* class col có padding là 12px nên ta thêm margin-left 12px cho nó đẹp */
     margin-left: 12px; 
 }
-.card-body {
-    text-align: left;
-}
-
 .contactBtn {
     width: 100%;
     background-color: #f1f1f1;
